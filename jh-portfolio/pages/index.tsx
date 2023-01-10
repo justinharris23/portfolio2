@@ -38,30 +38,41 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  href="https://docs.google.com/document/d/1v12Q8dt1ZT4hIGjDwPRxEdfZfvx3T_1OdG6XkW5oylg/edit?usp=sharing"
+                  target="_blank"
                 >
                   Resume
                 </a>
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10">
+          <div className="text-center p-1">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Justin Harris
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Software Engineer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+            <p className="text-md py-3 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
               Meticulously detail-oriented, curious, energetic leader. Obsessed
               with leveraging team talent for innovative ideas and digital
               solutions.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillMail />
-            <AiFillGithub />
-            <AiFillLinkedin />
+          <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600">
+            <a href="mailto:justin.r.harris@gmail.com">
+              <AiFillMail />
+            </a>
+
+            <a href="https://github.com/justinharris23" target="_blank">
+              <AiFillGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/justin-harris1/"
+              target="_blank"
+            >
+              <AiFillLinkedin />
+            </a>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden md:h-96 md:w-96">
             <Image
               src={justin}
               alt="an image"
@@ -72,7 +83,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-10">Services I offer</h3>
+            <h3 className="text-3xl py-1 mt-10">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning Lorem ipsum Lorem ipsum Lorem ipsum Lorem
               ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
@@ -82,24 +93,15 @@ export default function Home() {
               ipsum Lorem ipsum Since the beginning Lorem ipsum Lorem ipsum
               Lorem ipsum Lorem
             </p>
-            <p className="text-md py-5 leading-8 text-gray-800">
-              Meticulously detail-oriented, curious, energetic leader. Obsessed
-              with leveraging team talent for innovative ideas and digital
-              solutions.
-            </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className="display flex justify-center">
                 <Image src={design} alt="design" width={100} height={100} />
               </div>
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
-              </h3>
-              <p className="py-2">
-                Creating elegant designs suits for your lorem ipsum lorem ipsum
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
+              <h3 className="text-lg font-medium pt-8 pb-2">Languages</h3>
+              <p className="py-2">Lorem ipusm orem ipsum lorem ipsum</p>
+              {/* <h4 className="py-4 text-teal-600">Languages used</h4> */}
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Photoshop</p>
@@ -109,12 +111,10 @@ export default function Home() {
                 <Image src={code} alt="design" width={100} height={100} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs2
+                Frameworks & Libraries
               </h3>
-              <p className="py-2">
-                Creating elegant designs suits for your lorem ipsum lorem ipsum
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
+              <p className="py-2">Lorem ipusm orem ipsum lorem ipsum</p>
+              <h4 className="py-4 text-teal-600">Frameworks used</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Photoshop</p>
@@ -130,13 +130,10 @@ export default function Home() {
                   />
                 </div>
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Beautiful Designs3
+                  Developer Tools & Systems
                 </h3>
-                <p className="py-2">
-                  Creating elegant designs suits for your lorem ipsum lorem
-                  ipsum
-                </p>
-                <h4 className="py-4 text-teal-600">Design tools I use</h4>
+                <p className="py-2">Lorem ipusm orem ipsum lorem ipsum</p>
+                <h4 className="py-4 text-teal-600">Tools & Systems used</h4>
                 <p className="text-gray-800 py-1">Photoshop</p>
                 <p className="text-gray-800 py-1">Illustrator</p>
                 <p className="text-gray-800 py-1">Photoshop</p>
