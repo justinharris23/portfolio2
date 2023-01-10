@@ -6,11 +6,10 @@ import justin from "../public/jh-1000x750.jpg"
 import languages from "../public/icons8-language-64.png"
 import frameworks from "../public/icons8-framework-64.png"
 import systems from "../public/icons8-systems-64.png"
-import web1 from "../public/web1.png"
-import web2 from "../public/web2.png"
-import web3 from "../public/web3.png"
-import web4 from "../public/web4.png"
-import web5 from "../public/web5.png"
+import web1 from "../public/project.png"
+import web2 from "../public/project.png"
+import web3 from "../public/project.png"
+import web4 from "../public/project.png"
 import { useState } from "react"
 
 export default function Home() {
@@ -83,12 +82,14 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-10">Skills</h3>
+            <h3 className="text-3xl py-1 mt-10">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In 2023 I completed the Software Engineering class at General
-              Assembly, a 4 Month immersive program where we created and
-              deployed Full Stack Applications with User Interactive Client Side
-              webpages and Server Side Databases.
+              Lorem Ipsum, Lorem Ipsum, In 2023 I completed the Software
+              Engineering class at General Assembly, a 4 Month immersive program
+              where we created and deployed Full Stack Applications with User
+              Interactive Client Side webpages and Server Side Databases. During
+              the program we've learned the following languages, frameworks, and
+              developer tools:
               {/* <span className="text-teal-500"> agencies </span> ipsum Lorem
               ipsum Lorem ipsum Since the beginning Lorem ipsum Lorem ipsum
               Lorem ipsum Lorem */}
@@ -173,8 +174,8 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                src={web4}
-                alt="web4"
+                src={web3}
+                alt="web3"
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
@@ -183,8 +184,8 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                src={web5}
-                alt="web5"
+                src={web4}
+                alt="web4"
                 className="rounded-lg object-cover"
                 width="100%"
                 height={"100%"}
