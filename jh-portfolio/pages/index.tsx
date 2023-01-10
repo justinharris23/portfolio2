@@ -3,9 +3,9 @@ import { BsFillMoonStarsFill } from "react-icons/bs"
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai"
 import Image from "next/image"
 import justin from "../public/jh-1000x750.jpg"
-import design from "../public/design.png"
-import code from "../public/code.png"
-import consulting from "../public/consulting.png"
+import languages from "../public/icons8-language-64.png"
+import frameworks from "../public/icons8-framework-64.png"
+import systems from "../public/icons8-systems-64.png"
 import web1 from "../public/web1.png"
 import web2 from "../public/web2.png"
 import web3 from "../public/web3.png"
@@ -26,7 +26,7 @@ export default function Home() {
 
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between ">
+          <nav className="py-10 mb-2 flex justify-between ">
             <h1 className="text-xl font-burtons">developed by jh</h1>
             <ul className="flex items-center">
               {/* <li>
@@ -46,7 +46,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-1">
+          <div className="text-center p-1 mt-n-12">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Justin Harris
             </h2>
@@ -83,60 +83,55 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-10">About Me</h3>
+            <h3 className="text-3xl py-1 mt-10">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Since the beginning Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-              ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-              <span className="text-teal-500"> agencies </span>
-              ipsum Lorem ipsum Lorem ipsum Lorem{" "}
-              <span className="text-teal-500"> agencies </span> ipsum Lorem
+              In 2023 I completed the Software Engineering class at General
+              Assembly, a 4 Month immersive program where we created and
+              deployed Full Stack Applications with User Interactive Client Side
+              webpages and Server Side Databases.
+              {/* <span className="text-teal-500"> agencies </span> ipsum Lorem
               ipsum Lorem ipsum Since the beginning Lorem ipsum Lorem ipsum
-              Lorem ipsum Lorem
+              Lorem ipsum Lorem */}
             </p>
           </div>
-          <div className="lg:flex gap-10">
+          <div className="flex justify-center lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className="display flex justify-center">
-                <Image src={design} alt="design" width={100} height={100} />
+                <Image src={languages} alt="design" width={75} height={75} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">Languages</h3>
-              <p className="py-2">Lorem ipusm orem ipsum lorem ipsum</p>
+              <p className="py-2">Javascript</p>
               {/* <h4 className="py-4 text-teal-600">Languages used</h4> */}
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">HTML/CSS</p>
+              <p className="text-gray-800 py-1">SQL</p>
+              <p className="text-gray-800 py-1">Python</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className="display flex justify-center">
-                <Image src={code} alt="design" width={100} height={100} />
+                <Image src={frameworks} alt="design" width={75} height={75} />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Frameworks & Libraries
               </h3>
-              <p className="py-2">Lorem ipusm orem ipsum lorem ipsum</p>
-              <h4 className="py-4 text-teal-600">Frameworks used</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="py-2">React</p>
+              {/* <h4 className="py-4 text-teal-600">Frameworks used</h4> */}
+              <p className="text-gray-800 py-1">Sequelize</p>
+              <p className="text-gray-800 py-1">Express</p>
+              <p className="text-gray-800 py-1">Django</p>
             </div>
             <div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <div className="display flex justify-center">
-                  <Image
-                    src={consulting}
-                    alt="design"
-                    width={100}
-                    height={100}
-                  />
+                  <Image src={systems} alt="design" width={75} height={75} />
                 </div>
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Developer Tools & Systems
                 </h3>
-                <p className="py-2">Lorem ipusm orem ipsum lorem ipsum</p>
-                <h4 className="py-4 text-teal-600">Tools & Systems used</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Illustrator</p>
-                <p className="text-gray-800 py-1">Photoshop</p>
+                <p className="py-2">Node.js</p>
+                {/* <h4 className="py-4 text-teal-600">Tools & Systems used</h4> */}
+                <p className="text-gray-800 py-1">Git and Github</p>
+                <p className="text-gray-800 py-1">PostgreSQL</p>
+                <p className="text-gray-800 py-1">VSCode</p>
               </div>
             </div>
           </div>
@@ -154,6 +149,7 @@ export default function Home() {
               Lorem ipsum Lorem
             </p>
           </div>
+
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <Image
