@@ -160,7 +160,7 @@ export default function Home() {
               <Image
                 src={web1}
                 alt="web1"
-                className="rounded-lg object-cover border-2 border-black"
+                className="rounded-lg object-cover border border-black"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -176,7 +176,7 @@ export default function Home() {
               <Image
                 src={web2}
                 alt="web2"
-                className="rounded-lg object-cover border-2 border-black"
+                className="rounded-lg object-cover border border-black"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -191,7 +191,7 @@ export default function Home() {
               <Image
                 src={web3}
                 alt="web3"
-                className="rounded-lg object-cover border-2 border-black"
+                className="rounded-lg object-cover border border-black"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -206,7 +206,7 @@ export default function Home() {
               <Image
                 src={web4}
                 alt="web4"
-                className="rounded-lg object-cover border-2 border-black"
+                className="rounded-lg object-cover border border-black"
                 width="100%"
                 height={"100%"}
                 layout="responsive"
