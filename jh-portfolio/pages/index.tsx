@@ -160,7 +160,7 @@ export default function Home() {
               <Image
                 src={web1}
                 alt="web1"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover border-2 border-black"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -176,7 +176,7 @@ export default function Home() {
               <Image
                 src={web2}
                 alt="web2"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover border-2 border-black"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -191,22 +191,22 @@ export default function Home() {
               <Image
                 src={web3}
                 alt="web3"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover border-2 border-black"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
                 Tick-It is full-stack ticket app built with Python, Django, and
-                React with authentication. The app is showcases various venues
-                and events.
+                React with authentication. The app showcases various venues and
+                events.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
                 src={web4}
                 alt="web4"
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover border-2 border-black"
                 width="100%"
                 height={"100%"}
                 layout="responsive"
