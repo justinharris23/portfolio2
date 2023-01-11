@@ -6,10 +6,10 @@ import justin from "../public/jh-1000x750.jpg"
 import languages from "../public/icons8-language-64.png"
 import frameworks from "../public/icons8-framework-64.png"
 import systems from "../public/icons8-systems-64.png"
-import web1 from "../public/project.png"
-import web2 from "../public/project.png"
-import web3 from "../public/project.png"
-import web4 from "../public/project.png"
+import web1 from "../public/Musicverse-1.png"
+import web2 from "../public/Duet-1.png"
+import web3 from "../public/Tickit-1.png"
+import web4 from "../public/Kidcredible-1.png"
 import { useState } from "react"
 
 export default function Home() {
@@ -84,8 +84,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 mt-10">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              In 2023 I completed the Software Engineering class at General
-              Assembly, a 3 Month immersive program where we created and
+              At the start of 2023 I completed the Software Engineering class at
+              General Assembly, a 3 Month immersive program where we created and
               deployed Full Stack Applications with User Interactive Client Side
               webpages and Server Side Databases. During the program we've
               learned the following languages, frameworks, and developer tools:
@@ -140,7 +140,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-10">Portfolio</h3>
+            <h3 className="text-3xl py-1 mt-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Below are projects developed during my time at General Assembly.
               Some of these are still in the works and serve as demonstrations.
@@ -155,7 +155,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-10 pt-2 pb-12 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 pt-10 pb-12 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <Image
                 src={web1}
@@ -165,12 +165,11 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
-              <p>
-                Across the Musicverse is a site powered by Deezer music api. The
-                site pulld in the most streamed artists, albums, and songs. Here
-                you can listen to 30 second clips of select tracks. There is
-                also a search function. This site was built with Javascript and
-                React.
+              <p className="pt-3 leading-8">
+                Across the Musicverse is an app powered by the Deezer music api.
+                The most streamed artists, albums, and songs are featured and
+                visitors can play 30 second clips of select tracks or search
+                their favorite artist. This was built with Javascript and React.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
@@ -182,7 +181,11 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
-              <p>Duet is a social site that</p>
+              <p className="pt-3 leading-8">
+                Duet is a social app that helps users make connections with
+                others based on their taste in music. This a full-stack app
+                built with React and Sequelize.
+              </p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -193,7 +196,11 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
-              <p>Tick-It is a lorem lorem lorem lorem</p>
+              <p className="pt-3 leading-8">
+                Tick-It is full-stack ticket app built with Python, Django, and
+                React with authentication. The app is showcases various venues
+                and events.
+              </p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -204,7 +211,11 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
-              <p>Kidcredible is a demo site built to show</p>
+              <p className="pt-3 leading-8">
+                Kidcredible is an app where users can browse kids products such
+                as toys, games, dolls, etc and create, edit, & read reviews.
+                This is a full-stack app built with React and Django.
+              </p>
             </div>
           </div>
         </section>
