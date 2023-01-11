@@ -82,20 +82,21 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-10">About Me</h3>
+            <h3 className="text-3xl py-1 mt-10">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem Ipsum, Lorem Ipsum, In 2023 I completed the Software
-              Engineering class at General Assembly, a 4 Month immersive program
-              where we created and deployed Full Stack Applications with User
-              Interactive Client Side webpages and Server Side Databases. During
-              the program we've learned the following languages, frameworks, and
-              developer tools:
+              In 2023 I completed the Software Engineering class at General
+              Assembly, a 3 Month immersive program where we created and
+              deployed Full Stack Applications with User Interactive Client Side
+              webpages and Server Side Databases. During the program we've
+              learned the following languages, frameworks, and developer tools:
               {/* <span className="text-teal-500"> agencies </span> ipsum Lorem
               ipsum Lorem ipsum Since the beginning Lorem ipsum Lorem ipsum
               Lorem ipsum Lorem */}
             </p>
           </div>
-          <div className="flex justify-center lg:flex gap-10">
+          {/* <div className="flex justify-center lg:flex gap-10"> */}
+
+          <div className="flex justify-center flex-col gap-10 pt-2 pb-12 lg:flex-row lg:flex-wrap">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className="display flex justify-center">
                 <Image src={languages} alt="design" width={75} height={75} />
@@ -141,17 +142,19 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 mt-10">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Since the beginning Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-              ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-              <span className="text-teal-500"> agencies </span>
+              Below are projects developed during my time at General Assembly.
+              Some of these are still in the works and serve as demonstrations.
+              Each project was built differently with a different goal in mind.
+              Further details can be found below.
+              {/* <span className="text-teal-500"> agencies </span>
               ipsum Lorem ipsum Lorem ipsum Lorem{" "}
               <span className="text-teal-500"> agencies </span> ipsum Lorem
               ipsum Lorem ipsum Since the beginning Lorem ipsum Lorem ipsum
-              Lorem ipsum Lorem
+              Lorem ipsum Lorem */}
             </p>
           </div>
 
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="flex flex-col gap-10 pt-2 pb-12 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <Image
                 src={web1}
@@ -161,6 +164,10 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
+              <p>
+                Across the Musicverse is a site utlizing the Deezer music api.
+                The site pull in the most streamed artists, albums, and songs.
+              </p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -171,6 +178,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
+              <p>Duet is a social site that</p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -181,6 +189,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
+              <p>Tick-It is a lorem lorem lorem lorem</p>
             </div>
             <div className="basis-1/3 flex-1">
               <Image
@@ -191,6 +200,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
+              <p>Kidcredible is a demo site built to show</p>
             </div>
           </div>
         </section>
