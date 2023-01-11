@@ -144,8 +144,9 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800">
               Below are projects developed during my time at General Assembly.
               Some of these are still in the works and serve as demonstrations.
-              Each project was built differently with a different goal in mind.
-              Further details can be found below.
+              Each project was built with a different goal in mind utilizing
+              different languages and frameworks. Further details can be found
+              below.
               {/* <span className="text-teal-500"> agencies </span>
               ipsum Lorem ipsum Lorem ipsum Lorem{" "}
               <span className="text-teal-500"> agencies </span> ipsum Lorem
@@ -165,8 +166,11 @@ export default function Home() {
                 layout="responsive"
               />
               <p>
-                Across the Musicverse is a site utlizing the Deezer music api.
-                The site pull in the most streamed artists, albums, and songs.
+                Across the Musicverse is a site powered by Deezer music api. The
+                site pulld in the most streamed artists, albums, and songs. Here
+                you can listen to 30 second clips of select tracks. There is
+                also a search function. This site was built with Javascript and
+                React.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
