@@ -213,8 +213,9 @@ export default function Home() {
               />
               <p className="pt-3 leading-8">
                 Kidcredible is an app where users can browse kids products such
-                as toys, games, dolls, etc and create, edit, & read reviews.
-                This is a full-stack app built with React and Django.
+                as toys, games, dolls, books, and more. Product reviews can be
+                created, edited, and deleted. This is a full-stack app built
+                with React and Django.
               </p>
             </div>
           </div>
