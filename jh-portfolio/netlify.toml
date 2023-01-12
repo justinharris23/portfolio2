@@ -17,3 +17,6 @@
   environment = {
     production_variable = "value"
   }
+
+    [[plugins]]
+    package = "netlify-plugin-next"
