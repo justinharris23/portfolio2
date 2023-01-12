@@ -188,8 +188,8 @@ export default function Home() {
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
-                Duet is a social app that helps users make connections with
-                others based on their taste in music. This a full-stack app
+                <b>Duet</b> is a social app that helps users make connections
+                with others based on their taste in music. This a full-stack app
                 built with React and Sequelize.
               </p>
             </div>
