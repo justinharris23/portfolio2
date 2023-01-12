@@ -60,14 +60,14 @@ export default function Home() {
           <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600">
             <a
               href="mailto:justin.r.harris@gmail.com"
-              className="hover:text-blue-850"
+              className="hover:text-blue-500"
             >
               <AiFillMail />
             </a>
 
             <a
               href="https://github.com/justinharris23"
-              className="hover:text-blue-950"
+              className="hover:text-blue-500"
               target="_blank"
               rel="noreferrer"
             >
@@ -75,7 +75,7 @@ export default function Home() {
             </a>
             <a
               href="https://www.linkedin.com/in/justin-harris1/"
-              className="hover:text-blue-850"
+              className="hover:text-blue-500"
               target="_blank"
               rel="noreferrer"
             >
