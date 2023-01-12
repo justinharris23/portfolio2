@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  functions = "functions"
+  publish = "out"
+
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301
+  
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+[context.production]
+  environment = {
+    production_variable = "value"
+  }
