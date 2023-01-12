@@ -183,8 +183,8 @@ export default function Home() {
                 src={web2}
                 alt="web2"
                 className="rounded-lg object-cover border border-black"
-                width={"100%"}
-                height={"100%"}
+                width={"100"}
+                height={"100"}
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
@@ -198,8 +198,8 @@ export default function Home() {
                 src={web3}
                 alt="web3"
                 className="rounded-lg object-cover border border-black"
-                width={"100%"}
-                height={"100%"}
+                width={"100"}
+                height={"100"}
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
@@ -213,8 +213,8 @@ export default function Home() {
                 src={web4}
                 alt="web4"
                 className="rounded-lg object-cover border border-black"
-                width="100%"
-                height={"100%"}
+                width={"100"}
+                height={"100"}
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
