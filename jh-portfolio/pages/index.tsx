@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { BsFillMoonStarsFill } from "react-icons/bs"
+// import { BsFillMoonStarsFill } from "react-icons/bs"
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai"
 import Image from "next/image"
 import justin from "../public/jh-1000x750.jpg"
@@ -82,7 +82,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-10">Skills</h3>
+            <h3 className="text-3xl py-1 mt-3">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               At the start of 2023 I completed the Software Engineering class at
               General Assembly, a 3 Month immersive program where we created and
