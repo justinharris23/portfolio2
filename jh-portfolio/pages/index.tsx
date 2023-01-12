@@ -177,10 +177,30 @@ export default function Home() {
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
-                Across the Musicverse is an app powered by the Deezer music api.
-                The most streamed artists, albums, and songs are featured and
-                visitors can play 30 second clips of select tracks or search
-                their favorite artist. This was built with Javascript and React.
+                <span className="text-teal-500 font-bold">
+                  {" "}
+                  Across the Musicverse
+                </span>{" "}
+                is an app powered by the Deezer music api. The most streamed
+                artists, albums, and songs are featured and visitors can play 30
+                second clips of select tracks or search their favorite artist.
+                This was built with Javascript and React.{" "}
+                <a
+                  href="https://github.com/justinharris23/Across_the_Musicverse"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Github Repo]
+                </a>
+                <a
+                  href="http://across-the-musicverse.surge.sh/"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Live Site]
+                </a>
               </p>
             </div>
             <div className="basis-1/3 flex-1">
@@ -197,6 +217,22 @@ export default function Home() {
                 social app that helps users make connections with others based
                 on their taste in music. This a full-stack app built with React
                 and Sequelize.
+                <a
+                  href="https://github.com/DuetSocial/Duet_FE"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Github Repo]
+                </a>
+                {/* <a
+                  href="https://github.com/DuetSocial/Duet_FE"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Live Site]
+                </a> */}
               </p>
             </div>
             <div className="basis-1/3 flex-1">
@@ -209,9 +245,26 @@ export default function Home() {
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
-                Tick-It is full-stack ticket app built with Python, Django, and
-                React with authentication. The app showcases various venues and
-                events.
+                <span className="text-teal-500 font-bold"> Tick-It</span> is
+                full-stack ticket app built with Python, Django, and React with
+                authentication. The app showcases various venues and events and
+                was created to demonstrate full CRUD.{" "}
+                <a
+                  href="https://github.com/BChan26/Tick-iT"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Github Repo]
+                </a>
+                <a
+                  href="https://the-tick-it.netlify.app/"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Live Site]
+                </a>
               </p>
             </div>
             <div className="basis-1/3 flex-1">
@@ -224,10 +277,27 @@ export default function Home() {
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
-                Kidcredible is an app where users can browse kids products such
-                as toys, games, dolls, books, and more. Product reviews can be
-                created, edited, and deleted. This is a full-stack app built
-                with React and Django.
+                <span className="text-teal-500 font-bold">Kidcredible</span> is
+                an app where users can browse kids products such as toys, games,
+                dolls, books, and more. Product reviews can be created, edited,
+                and deleted. This is a full-stack app built with React and
+                Django.{" "}
+                <a
+                  href="https://github.com/justinharris23/Kidcredible_frontend"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Github Repo]
+                </a>
+                {/* <a
+                  href="https://github.com/justinharris23/Kidcredible_frontend"
+                  className="hover:text-blue-500"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  [Live Site]
+                </a> */}
               </p>
             </div>
           </div>
