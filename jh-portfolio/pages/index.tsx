@@ -167,8 +167,8 @@ export default function Home() {
                 src={web1}
                 alt="web1"
                 className="rounded-lg object-cover border border-black"
-                width={"100%"}
-                height={"100%"}
+                width={"100"}
+                height={"100"}
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
