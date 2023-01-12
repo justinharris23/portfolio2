@@ -58,12 +58,16 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600">
-            <a href="mailto:justin.r.harris@gmail.com">
+            <a
+              href="mailto:justin.r.harris@gmail.com"
+              className="hover:text-blue-850"
+            >
               <AiFillMail />
             </a>
 
             <a
               href="https://github.com/justinharris23"
+              className="hover:text-blue-950"
               target="_blank"
               rel="noreferrer"
             >
@@ -71,6 +75,7 @@ export default function Home() {
             </a>
             <a
               href="https://www.linkedin.com/in/justin-harris1/"
+              className="hover:text-blue-850"
               target="_blank"
               rel="noreferrer"
             >
@@ -146,7 +151,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-1">Portfolio</h3>
+            <h3 className="text-3xl py-1 mt-1">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Below are projects developed during my time at General Assembly.
               Some of these are still in the works and serve as demonstrations.
@@ -188,9 +193,10 @@ export default function Home() {
                 layout="responsive"
               />
               <p className="pt-3 leading-8">
-                <b>Duet</b> is a social app that helps users make connections
-                with others based on their taste in music. This a full-stack app
-                built with React and Sequelize.
+                <span className="text-teal-500 font-bold">Duet</span> is a
+                social app that helps users make connections with others based
+                on their taste in music. This a full-stack app built with React
+                and Sequelize.
               </p>
             </div>
             <div className="basis-1/3 flex-1">
