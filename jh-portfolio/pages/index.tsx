@@ -39,6 +39,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="https://docs.google.com/document/d/1v12Q8dt1ZT4hIGjDwPRxEdfZfvx3T_1OdG6XkW5oylg/edit?usp=sharing"
                   target="_blank"
+                  rel="noopener"
                 >
                   Resume
                 </a>
@@ -61,12 +62,17 @@ export default function Home() {
               <AiFillMail />
             </a>
 
-            <a href="https://github.com/justinharris23" target="_blank">
+            <a
+              href="https://github.com/justinharris23"
+              target="_blank"
+              rel="noopener"
+            >
               <AiFillGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/justin-harris1/"
               target="_blank"
+              rel="noopener"
             >
               <AiFillLinkedin />
             </a>
