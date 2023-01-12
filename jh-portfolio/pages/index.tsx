@@ -39,7 +39,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="https://docs.google.com/document/d/1v12Q8dt1ZT4hIGjDwPRxEdfZfvx3T_1OdG6XkW5oylg/edit?usp=sharing"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -65,14 +65,14 @@ export default function Home() {
             <a
               href="https://github.com/justinharris23"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <AiFillGithub />
             </a>
             <a
               href="https://www.linkedin.com/in/justin-harris1/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <AiFillLinkedin />
             </a>
@@ -93,7 +93,7 @@ export default function Home() {
               At the start of 2023 I completed the Software Engineering class at
               General Assembly, a 3 Month immersive program where we created and
               deployed Full Stack Applications with User Interactive Client Side
-              webpages and Server Side Databases. During the program we've
+              webpages and Server Side Databases. During the program we have
               learned the following languages, frameworks, and developer tools:
               {/* <span className="text-teal-500"> agencies </span> ipsum Lorem
               ipsum Lorem ipsum Since the beginning Lorem ipsum Lorem ipsum
